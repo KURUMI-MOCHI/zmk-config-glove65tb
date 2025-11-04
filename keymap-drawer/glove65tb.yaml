@@ -2,16 +2,16 @@ layout: {zmk_keyboard: glove65tb}
 layers:
   DEFAULT:
   - ESC
-  - '1'
-  - '2'
-  - '3'
-  - '4'
-  - '5'
-  - '6'
-  - '7'
-  - '8'
-  - '9'
-  - '0'
+  - '`'
+  - F2
+  - F3
+  - F4
+  - F5
+  - F8
+  - F9
+  - F10
+  - '-'
+  - '='
   - BSPC
   - TAB
   - Q
@@ -33,14 +33,14 @@ layers:
   - D
   - F
   - G
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - F6
+  - F7
   - H
   - J
   - K
   - L
   - ;
-  - RETURN
+  - ''''
   - LEFT SHIFT
   - Z
   - X
@@ -55,17 +55,17 @@ layers:
   - .
   - /
   - RIGHT SHIFT
-  - SYM
-  - {t: ▽, type: trans}
-  - LEFT CONTROL
+  - LCTRL
+  - LEFT WIN
+  - LEFT ALT
   - LEFT ALT
   - LEFT GUI
   - '&mkp LCLK'
   - SPACE
-  - SPACE
-  - FUN
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - ENTER
+  - BACKSPACE
+  - '&mkp LCLK'
+  - '&mkp RCLK'
   NUM:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -187,7 +187,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -261,7 +261,7 @@ layers:
   - '&mkp RCLK'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   MOUSE:
