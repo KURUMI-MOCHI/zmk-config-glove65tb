@@ -70,6 +70,26 @@
             bindings = <&mkp RCLK>;
             key-positions = <37 38>;
         };
+
+        l_click2 {
+            bindings = <&mkp LCLK>;
+            key-positions = <28 27>;
+        };
+
+        mid_click2 {
+            bindings = <&mkp MCLK>;
+            key-positions = <28 29>;
+        };
+
+        r_click2 {
+            bindings = <&mkp RCLK>;
+            key-positions = <29 30>;
+        };
+
+        scroll2 {
+            bindings = <&mo 2>;
+            key-positions = <42 43>;
+        };
     };
 
     behaviors {
