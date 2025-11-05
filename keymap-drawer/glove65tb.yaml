@@ -275,3 +275,11 @@ combos:
   k: '&mkp MCLK'
 - p: [37, 38]
   k: '&mkp RCLK'
+- p: [28, 27]
+  k: '&mkp LCLK'
+- p: [28, 29]
+  k: '&mkp MCLK'
+- p: [29, 30]
+  k: '&mkp RCLK'
+- p: [42, 43]
+  k: SCROLL
