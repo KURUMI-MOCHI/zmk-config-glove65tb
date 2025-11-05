@@ -50,8 +50,13 @@
         compatible = "zmk,combos";
 
         scroll {
-            bindings = <&mo 1>;
-            key-positions = <49 50>;
+            bindings = <&mo 2>;
+            key-positions = <50 51>;
+        };
+
+        function {
+            bindings = <&mo 3>;
+            key-positions = <35 36 37>;
         };
     };
 
@@ -101,12 +106,25 @@
         scroll_layer {
             label = "SCROLL";
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans                          &trans  &trans
+&trans  &kp F1  &kp F2          &kp F3           &kp F4         &kp F5                  &kp F8  &kp F9     &kp F10          &kp F11        &kp F12  &trans
+&trans  &trans  &kp PG_UP       &kp UP_ARROW     &kp PAGE_DOWN  &trans  &trans  &kp F7  &trans  &kp PG_UP  &kp UP_ARROW     &kp PAGE_DOWN  &trans   &trans
+&trans  &trans  &kp LEFT_ARROW  &kp DOWN         &kp RIGHT      &trans  &kp F6  &trans  &trans  &kp LEFT   &kp DOWN_ARROW   &kp RIGHT      &trans   &trans
+&trans  &trans  &kp HOME        &kp PRINTSCREEN  &kp END        &trans  &trans  &trans  &trans  &kp HOME   &kp PRINTSCREEN  &kp END        &trans   &trans
+&trans  &trans  &trans          &trans           &trans         &trans  &trans  &trans  &trans                                             &trans   &trans
             >;
+        };
+
+        function_layer {
+            label = "FUN";
+            bindings = <
+&bt BT_SEL 0    &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &trans                                           &trans  &trans  &trans  &trans  &trans  &trans
+&trans          &trans        &trans        &trans        &trans        &trans     &trans             &trans             &trans  &trans  &trans  &trans  &trans  &trans
+&trans          &trans        &trans        &trans        &trans        &trans     &kp C_VOLUME_UP    &kp C_VOLUME_UP    &trans  &trans  &trans  &trans  &trans  &trans
+&trans          &trans        &trans        &trans        &trans        &trans     &kp C_VOLUME_DOWN  &kp C_VOLUME_DOWN  &trans  &trans  &trans  &trans  &trans  &trans
+&bt BT_CLR_ALL  &trans        &trans        &trans        &trans        &mkp RCLK  &trans             &trans             &trans                          &trans  &trans
+            >;
+
+            sensor-bindings = <&sensor_rotate_kp C_VOLUME_DOWN C_VOLUME_UP>;
         };
 
         symbol_layer {
@@ -117,41 +135,6 @@
 &trans  &trans        &trans        &trans        &trans        &trans        &ind_con  &trans  &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans        &trans        &trans        &trans        &trans        &ind_bat  &trans  &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans        &trans        &trans        &trans        &trans        &trans    &trans  &trans                          &trans  &trans
-            >;
-        };
-
-        function_layer {
-            label = "FUN";
-            bindings = <
-&trans  &kp F1  &kp F2  &kp F3  &kp F4  &kp F5                                   &kp F6   &kp F7          &kp F8          &kp F9           &kp F10           &trans
-&trans  &trans  &trans  &trans  &trans  &trans     &trans             &trans     &kp F11  &kp F12         &kp UP_ARROW    &trans           &kp MINUS         &kp EQUAL
-&trans  &trans  &trans  &trans  &trans  &trans     &kp C_VOLUME_UP    &trans     &trans   &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp LEFT_BRACKET  &kp RIGHT_BRACKET
-&trans  &trans  &trans  &trans  &trans  &trans     &kp C_VOLUME_DOWN  &kp GRAVE  &trans   &mkp LCLK       &mkp RCLK       &mkp MCLK        &trans            &trans
-&trans  &trans  &trans  &trans  &trans  &mkp RCLK  &trans             &trans     &trans                                                    &trans            &trans
-            >;
-
-            sensor-bindings = <&sensor_rotate_kp C_VOLUME_DOWN C_VOLUME_UP>;
-        };
-
-        mouse_layer {
-            label = "MOUSE";
-            bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans                          &trans  &trans
-            >;
-        };
-
-        snipe_layer {
-            label = "SNIPE";
-            bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans                          &trans  &trans
             >;
         };
     };
