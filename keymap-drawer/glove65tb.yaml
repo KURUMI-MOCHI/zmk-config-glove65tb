@@ -231,8 +231,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - '&ind_con'
   - VOLUME UP
-  - VOLUME UP
   - {t: ▽, type: trans}
   - {type: held}
   - {type: held}
@@ -245,7 +245,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - VOLUME DOWN
+  - '&ind_bat'
   - VOLUME DOWN
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
