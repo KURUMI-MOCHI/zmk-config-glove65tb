@@ -10,14 +10,11 @@
 #include <dt-bindings/zmk/pointing.h>
 
 // Layer Numbering
-
 #define DEFAULT 0
 #define NUM     1
-#define SYM     2
+#define SCROLL  2
 #define FUN     3
-#define MOUSE   4
-#define SCROLL  5
-#define SNIPE   6
+#define SYM     4
 
 &mmv {
     delay-ms = <20>;
@@ -119,8 +116,8 @@
             bindings = <
 &bt BT_SEL 0    &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &trans                                           &trans  &trans  &trans  &trans  &trans  &trans
 &trans          &trans        &trans        &trans        &trans        &trans     &trans             &trans             &trans  &trans  &trans  &trans  &trans  &trans
-&trans          &trans        &trans        &trans        &trans        &trans     &kp C_VOLUME_UP    &kp C_VOLUME_UP    &trans  &trans  &trans  &trans  &trans  &trans
-&trans          &trans        &trans        &trans        &trans        &trans     &kp C_VOLUME_DOWN  &kp C_VOLUME_DOWN  &trans  &trans  &trans  &trans  &trans  &trans
+&trans          &trans        &trans        &trans        &trans        &trans     &ind_con           &kp C_VOLUME_UP    &trans  &trans  &trans  &trans  &trans  &trans
+&trans          &trans        &trans        &trans        &trans        &trans     &ind_bat           &kp C_VOLUME_DOWN  &trans  &trans  &trans  &trans  &trans  &trans
 &bt BT_CLR_ALL  &trans        &trans        &trans        &trans        &mkp RCLK  &trans             &trans             &trans                          &trans  &trans
             >;
 
