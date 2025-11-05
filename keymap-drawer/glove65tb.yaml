@@ -206,10 +206,10 @@ layers:
   - {t: BT, h: '4'}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
+  - {type: held}
+  - {type: held}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -234,9 +234,9 @@ layers:
   - '&ind_con'
   - VOLUME UP
   - {t: ▽, type: trans}
-  - {type: held}
-  - {type: held}
-  - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -267,5 +267,11 @@ layers:
 combos:
 - p: [50, 51]
   k: SCROLL
-- p: [35, 36, 37]
+- p: [8, 7, 9, 10]
   k: FUN
+- p: [35, 36]
+  k: '&mkp LCLK'
+- p: [36, 37]
+  k: '&mkp MCLK'
+- p: [37, 38]
+  k: '&mkp RCLK'
