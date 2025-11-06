@@ -12,7 +12,7 @@ layers:
   - F10
   - '-'
   - '='
-  - BSPC
+  - DEL
   - TAB
   - Q
   - W
