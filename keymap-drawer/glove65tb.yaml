@@ -62,8 +62,8 @@ layers:
   - {t: '&mkp MCLK', h: SCROLL}
   - '&mkp LCLK'
   - SPACE
-  - ENTER
   - BACKSPACE
+  - ENTER
   - '&mkp LCLK'
   - '&mkp RCLK'
   NUM:
