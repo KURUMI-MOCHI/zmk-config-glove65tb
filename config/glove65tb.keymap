@@ -46,49 +46,14 @@
     combos {
         compatible = "zmk,combos";
 
-        scroll {
-            bindings = <&mo 2>;
-            key-positions = <50 51>;
-        };
-
         function {
             bindings = <&mo 3>;
             key-positions = <8 7 9 10>;
         };
 
-        l_click {
-            bindings = <&mkp LCLK>;
-            key-positions = <35 36>;
-        };
-
-        mid_click {
-            bindings = <&mkp MCLK>;
-            key-positions = <36 37>;
-        };
-
-        right_click {
-            bindings = <&mkp RCLK>;
-            key-positions = <37 38>;
-        };
-
-        l_click2 {
-            bindings = <&mkp LCLK>;
-            key-positions = <28 27>;
-        };
-
-        mid_click2 {
-            bindings = <&mkp MCLK>;
-            key-positions = <28 29>;
-        };
-
-        r_click2 {
-            bindings = <&mkp RCLK>;
-            key-positions = <29 30>;
-        };
-
-        scroll2 {
-            bindings = <&mo 2>;
-            key-positions = <42 43>;
+        capsLock {
+            bindings = <&kp CAPSLOCK>;
+            key-positions = <1 2 3 4>;
         };
     };
 
@@ -124,11 +89,11 @@
         default_layer {
             label = "DEFAULT";
             bindings = <
-&kp ESC         &kp GRAVE     &kp F2        &kp F3     &kp F4  &kp F5                                          &kp F8         &kp F9  &kp F10    &kp MINUS  &kp EQUAL  &kp BSPC
-&kp TAB         &kp Q         &kp W         &kp E      &kp R   &kp T      &trans            &kp F7             &kp Y          &kp U   &kp I      &kp O      &kp P      &kp BACKSLASH
-&mo 1           &kp A         &kp S         &kp D      &kp F   &kp G      &kp F6            &mo 1              &kp H          &kp J   &kp K      &kp L      &kp SEMI   &kp SQT
-&kp LEFT_SHIFT  &kp Z         &kp X         &kp C      &kp V   &kp B      &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp N          &kp M   &kp COMMA  &kp DOT    &kp FSLH   &mo 2
-&kp LCTRL       &kp LEFT_WIN  &kp LEFT_ALT  &mkp RCLK  &mo 2   &mkp LCLK  &kp SPACE         &kp ENTER          &kp BACKSPACE                                &mkp LCLK  &mkp RCLK
+&kp ESC         &kp GRAVE     &kp F2        &kp F3     &kp F4         &kp F5                                          &kp F8         &kp F9  &kp F10    &kp MINUS  &kp EQUAL  &kp BSPC
+&kp TAB         &kp Q         &kp W         &kp E      &kp R          &kp T      &trans            &kp F7             &kp Y          &kp U   &kp I      &kp O      &kp P      &kp BACKSLASH
+&mo 1           &kp A         &kp S         &kp D      &kp F          &kp G      &kp F6            &mo 1              &kp H          &kp J   &kp K      &kp L      &kp SEMI   &kp SQT
+&kp LEFT_SHIFT  &kp Z         &kp X         &kp C      &kp V          &kp B      &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp N          &kp M   &kp COMMA  &kp DOT    &kp FSLH   &my_ht 2 MCLK
+&kp LCTRL       &kp LEFT_WIN  &kp LEFT_ALT  &mkp RCLK  &my_ht 2 MCLK  &mkp LCLK  &kp SPACE         &kp ENTER          &kp BACKSPACE                                &mkp LCLK  &mkp RCLK
             >;
 
             sensor-bindings = <&mouse_wheel_scroll SCRL_DOWN SCRL_UP>;
