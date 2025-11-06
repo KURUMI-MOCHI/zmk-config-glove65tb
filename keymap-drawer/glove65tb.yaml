@@ -54,12 +54,12 @@ layers:
   - ','
   - .
   - /
-  - SCROLL
+  - {t: '&mkp MCLK', h: SCROLL}
   - LCTRL
   - LEFT WIN
   - LEFT ALT
   - '&mkp RCLK'
-  - SCROLL
+  - {t: '&mkp MCLK', h: SCROLL}
   - '&mkp LCLK'
   - SPACE
   - ENTER
@@ -265,21 +265,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
 combos:
-- p: [50, 51]
-  k: SCROLL
 - p: [8, 7, 9, 10]
   k: FUN
-- p: [35, 36]
-  k: '&mkp LCLK'
-- p: [36, 37]
-  k: '&mkp MCLK'
-- p: [37, 38]
-  k: '&mkp RCLK'
-- p: [28, 27]
-  k: '&mkp LCLK'
-- p: [28, 29]
-  k: '&mkp MCLK'
-- p: [29, 30]
-  k: '&mkp RCLK'
-- p: [42, 43]
-  k: SCROLL
+- p: [1, 2, 3, 4]
+  k: CAPSLOCK
