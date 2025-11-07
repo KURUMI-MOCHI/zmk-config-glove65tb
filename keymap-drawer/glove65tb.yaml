@@ -59,9 +59,9 @@ layers:
   - LEFT WIN
   - LEFT ALT
   - '&mkp RCLK'
-  - '&mkp LCLK'
-  - SPACE
   - {t: '&mkp MCLK', h: SCROLL}
+  - SPACE
+  - '&mkp LCLK'
   - BACKSPACE
   - ENTER
   - '&mkp LCLK'
