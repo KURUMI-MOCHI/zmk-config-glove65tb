@@ -146,32 +146,32 @@ layers:
   - F12
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - Ctl+Gui+LEFT ARROW
   - PG UP
   - UP ARROW
   - PAGE DOWN
-  - {t: ▽, type: trans}
+  - Ctl+Gui+RIGHT
   - {t: ▽, type: trans}
   - F7
-  - {t: ▽, type: trans}
+  - Ctl+Gui+LEFT
   - PG UP
   - UP ARROW
   - PAGE DOWN
+  - Ctl+Gui+RIGHT
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - Gui+Sft+LEFT
   - LEFT ARROW
   - DOWN
   - RIGHT
-  - {t: ▽, type: trans}
+  - Sft+Gui+RIGHT
   - F6
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - LEFT
+  - Sft+Gui+LEFT
+  - Gui+LGUI
   - DOWN ARROW
   - RIGHT
-  - {t: ▽, type: trans}
+  - Sft+Gui+RIGHT
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
