@@ -174,12 +174,12 @@ layers:
   - Sft+Gui+RIGHT
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - '&mmv MOVE_UP'
+  - {t: ▽, type: trans}
   - HOME
   - PRINTSCREEN
   - END
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '&mmv MOVE_LEFT'
+  - '&mmv MOVE_UP'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - HOME
@@ -187,13 +187,13 @@ layers:
   - END
   - {t: ▽, type: trans}
   - {type: held}
-  - '&mmv MOVE_LEFT'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - '&mmv MOVE_DOWN'
   - '&mmv MOVE_RIGHT'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
