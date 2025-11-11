@@ -122,7 +122,7 @@
 &trans  &trans                  &trans          &trans           &trans         &mmv MOVE_DOWN     &mmv MOVE_RIGHT  &trans  &trans                                                       &trans             &trans
             >;
 
-            sensor-bindings = <&inc_dec_kp LC(LG(RIGHT)) LC(LG(LEFT))>;
+            sensor-bindings = <&inc_dec_kp LC(LG(LEFT)) LC(LG(RIGHT))>;
         };
 
         function_layer {
