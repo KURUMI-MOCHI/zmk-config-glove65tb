@@ -168,7 +168,7 @@ layers:
   - F6
   - {t: ▽, type: trans}
   - Sft+Gui+LEFT
-  - Gui+LGUI
+  - LEFT
   - DOWN ARROW
   - RIGHT
   - Sft+Gui+RIGHT
