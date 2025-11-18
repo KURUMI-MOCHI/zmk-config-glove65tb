@@ -129,8 +129,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '0'
+  - ENTER
   - {t: ▽, type: trans}
   SCROLL:
   - {t: ▽, type: trans}
@@ -146,45 +146,45 @@ layers:
   - F12
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - Ctl+Gui+LEFT ARROW
+  - Gui+Sft+LEFT ARROW
   - PG UP
   - UP ARROW
   - PAGE DOWN
-  - Ctl+Gui+RIGHT
+  - Gui+Sft+RIGHT
   - {t: ▽, type: trans}
   - F7
-  - Ctl+Gui+LEFT
+  - Gui+Sft+LEFT
   - PG UP
   - UP ARROW
   - PAGE DOWN
-  - Ctl+Gui+RIGHT
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - Gui+Sft+LEFT
-  - LEFT ARROW
-  - DOWN
-  - RIGHT
-  - Sft+Gui+RIGHT
-  - F6
-  - {t: ▽, type: trans}
-  - Sft+Gui+LEFT
-  - LEFT
-  - DOWN ARROW
-  - RIGHT
-  - Sft+Gui+RIGHT
-  - {t: ▽, type: trans}
+  - Gui+Sft+RIGHT
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - HOME
-  - PRINTSCREEN
+  - LEFT ARROW
+  - DOWN
+  - RIGHT
   - END
+  - F6
+  - {t: ▽, type: trans}
+  - HOME
+  - LEFT
+  - DOWN ARROW
+  - RIGHT
+  - END
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - PRINTSCREEN
+  - {t: ▽, type: trans}
   - '&mmv MOVE_LEFT'
   - '&mmv MOVE_UP'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - HOME
+  - {t: ▽, type: trans}
   - PRINTSCREEN
-  - END
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held}
   - {t: ▽, type: trans}
